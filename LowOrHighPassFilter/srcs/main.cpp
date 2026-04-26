@@ -3,7 +3,7 @@
 int main()
 {
     // ── Filter parameters ────────────────────────────────────
-    const bool LOW_PASS  = false;
+    const bool LOW_PASS  = false;   // true for low-pass, false for high-pass
     const int  RADIUS    = 50;      // half-width of the square mask region
 
     // ── Load image ───────────────────────────────────────────
